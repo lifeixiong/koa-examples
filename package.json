@@ -2,7 +2,10 @@
   "dependencies": {
     "koa": "^2.5.3",
     "koa-basic-auth": "^3.0.0",
+    "koa-session": "^5.9.0",
     "mocha": "^5.2.0",
+    "raw-body": "^2.3.3",
+    "should": "^13.2.3",
     "supertest": "^3.3.0"
   }
 }
