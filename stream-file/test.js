@@ -21,6 +21,13 @@ describe('Stream File', function () {
             .expect(200, done)
     })
 
+    it("GET /test.txt", function (done) {
+        request
+            .get("/test.txt")
+            .expect("content-type", /text\/plain/)
+            .expect(200, done)
+    })   
+
     it('GET /alksjdf.js', function (done) {
         request
             .get('/lajksdf.js')
